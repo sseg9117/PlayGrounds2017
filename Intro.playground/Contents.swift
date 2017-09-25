@@ -23,6 +23,14 @@ myName = "Sheradon"
 print(myName)
 //myName = soup
 //Can't assign into a let once assigned
+var bmw = "String"
+var someCar = "bmw"
+bmw = someCar
+print(m3)
+
+
+
+
 
 
 
