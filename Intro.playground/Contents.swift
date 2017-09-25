@@ -26,7 +26,7 @@ print(myName)
 var bmw = "String"
 var someCar = "bmw"
 bmw = someCar
-print(m3)
+//error ..print(luxury)
 
 
 
