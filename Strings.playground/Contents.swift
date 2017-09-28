@@ -22,3 +22,32 @@ print("the number of character in \(word) is \(word.characters.count)")
 //Prints "the number of character in cafe is 4"
 
 
+//Comparing Strings
+let quotation = "We're alot alike, you and I."
+let sameQuotation = "We're alot alike, you I."
+if quotation == sameQuotation {
+    print("These two strings are considered equal")
+}
+//Prints "These two strings are considered equal"
+// "Voulez-vous un cafe?" using latin small letter e with acute
+let eAcuteQuestion = "Voulez-vous un caf\u{E9}"
+
+//"Voulez-vous un cafe?" using latin small letter e and combining acute accent
+let combinedEAcuteQuestion = "Voulez-vous un caf\u{65}\u{301}?"
+
+if eAcuteQuestion == combinedEAcuteQuestion {
+    print("These two strings are considered equal")
+}
+//Prints "these two strings consdered equal"
+
+let latinCapitalLetterA: Character = "\u{41}"
+
+let cyrillicCapitalLetterA: Character = "\u{0410}"
+
+if latinCapitalLetterA != cyrillicCapitalLetterA {
+    print("These two characters are not equivalent.")
+}
+// Prints "These two characters are not equivalent."
+
+
+
