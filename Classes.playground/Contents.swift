@@ -6,5 +6,13 @@ var todaysNotes = "Working with classes"
 
 public class SimpleClass
 {
+    private var myName :String
     
+    public init()
+    {
+        myName = String()
+//        myName = "Words in here"
+    }
 }
+var mySample :SimpleClass = SimpleClass()
+
