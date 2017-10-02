@@ -45,8 +45,18 @@ public class OtherClass
         self.favoriteWord = favoriteWord
         
     }
+    public func changevaluestwo() -> Void
+    {
+        self.favoriteWord += " memes"
+    }
+    public func changevalues() -> Void
+    {
+        self.favoriteNumber += 77
+        self.favoriteWord += " XD"
+    }
 }
 var firstSample = OtherClass()
-var secondSample = OtherClass(favoriteNumber: 13, favoriteWord: "bork")
-
+var secondSample = OtherClass(favoriteNumber: 3456, favoriteWord: "LUL")
+secondSample.changevalues()
+secondSample.changevaluestwo()
 
