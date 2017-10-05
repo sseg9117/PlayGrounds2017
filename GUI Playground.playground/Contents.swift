@@ -15,6 +15,23 @@ secondButton.backgroundColor = .cyan
 secondButton.setTitle ("Button2", for: .normal)
 temp = secondButton.titleLabel
 secondButton.setTitle("Look my second button", for: .normal)
+//UIView 1
+
+//UIView 2
+
+//View 3
 
 
+//Label1
+
+
+
+//Label2
+var Label2: UILabel = UILabel()
+Label2(frame: CGRectMake(50, 150, 200, 21))
+Label2.backgroundColor = UIColor.orangeColor()
+Label2.textColor = UIColor.blackColor()
+Label2.textAlignment = NSTextAlignment.Center
+Label2.text = "my label number 2"
+self.view.addSubview(Label2)
 
